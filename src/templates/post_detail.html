@@ -4,23 +4,13 @@
 
 <style>
 {% block style %}
-h1{
-	color: #777777;
-}
 {% endblock style %}
 </style>
 {% block content %}
+<div class='col-sm-6 col-sm-offset-3'>
+<h1>{{ title }} <small>{{ instance.timestamp }}</small></h1>
+{{ instance.content|linebreaks }}<br/>
 
-
-<h1>{{ title }} </h1>
-
-
-
-{{instance.title}}<br/>
-{{instance.content}}<br/>
-{{instance.timestamp}}<br/>
-{{instance.updated}}<br/>
-{{instance.id}}<br/>
 
 {% endblock content %}
 
