@@ -4,6 +4,5 @@ trydjango19.sublime-project
 lib/python2.7
 bin/*
 include/*
-.Python 
-.gitignore
+.Python
 pip-selfcheck.json
