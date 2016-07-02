@@ -1,3 +1,3 @@
-# Blog-Application
+# Web Chronicle
 
 Description
